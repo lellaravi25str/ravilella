@@ -22,6 +22,7 @@ public class TC003_VerifyLoginWithDifferentRecords extends TestBase
 	@DataProvider(name="loginData")
 	public String[][] getTestData()
 	{
+		System.out.println("Adding new text");
 		String[][] testRecords = getData("LoginTestData","TestData.xlsx");
 		return testRecords;
 	}
