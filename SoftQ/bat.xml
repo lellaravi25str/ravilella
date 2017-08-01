@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="vmwareSuite" parallel="tests">
+
+  <test name="chromeBrowserExecutions" >
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+       <class name="com.softq.SingleDropdown" />
+       <class name="com.softq.MouseOperations" />
+    </classes>
+  </test>
+ 
+  <test name="firefoxBrowserExecutions">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+       <class name="com.softq.SingleDropdown" />
+       <class name="com.softq.MouseOperations" />
+    </classes>
+  </test>
+  
+</suite>

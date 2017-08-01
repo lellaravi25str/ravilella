@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-vmwareSuite">
+              <span class="suite-name border-skipped">vmwareSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-vmwareSuite">
+                    <span>C:\Selenium Projects\SoftQ\bat.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-vmwareSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-vmwareSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-vmwareSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-vmwareSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-vmwareSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-vmwareSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,  5 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-vmwareSuite" class="hide-methods skipped suite-vmwareSuite"> (hide)</a> <!-- hide-methods skipped suite-vmwareSuite -->
+                      <a href="#" panel-name="suite-vmwareSuite" class="show-methods skipped suite-vmwareSuite"> (show)</a> <!-- show-methods skipped suite-vmwareSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-vmwareSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.MouseOperations" hash-for-method="Browserslider">Browserslider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.MouseOperations" hash-for-method="DragAnddrop">DragAnddrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.MouseOperations" hash-for-method="MoveToelement">MoveToelement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.SingleDropdown" hash-for-method="singleDropDown">singleDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.MouseOperations" hash-for-method="slider">slider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-vmwareSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-vmwareSuite" class="hide-methods passed suite-vmwareSuite"> (hide)</a> <!-- hide-methods passed suite-vmwareSuite -->
+                      <a href="#" panel-name="suite-vmwareSuite" class="show-methods passed suite-vmwareSuite"> (show)</a> <!-- show-methods passed suite-vmwareSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-vmwareSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.MouseOperations" hash-for-method="Browserslider">Browserslider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.MouseOperations" hash-for-method="DragAnddrop">DragAnddrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.MouseOperations" hash-for-method="MoveToelement">MoveToelement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.SingleDropdown" hash-for-method="singleDropDown">singleDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vmwareSuite" title="com.softq.MouseOperations" hash-for-method="slider">slider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-vmwareSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-vmwareSuite" class="panel vmwareSuite">
+          <div class="suite-vmwareSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.softq.MouseOperations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Browserslider">
+                  </a> <!-- Browserslider -->
+                  <span class="method-name">Browserslider</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+n&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979077190	DeferredSave.extensions.json	DEBUG	Save changes
+1500979077190	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979077191	addons.xpi-utils	DEBUG	Updating add-on states
+1500979077193	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979077198	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979077199	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979077200	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979077201	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979077202	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979077203	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979077204	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979077205	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979077205	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979077206	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979077212	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979077212	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979077213	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979077221	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979077221	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979077222	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979077222	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979077223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979077223	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979079885	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979079885	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979079886	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979080231	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080231	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979080231	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979080253	addons.repository	DEBUG	No addons.json found.
+1500979080254	DeferredSave.addons.json	DEBUG	Save changes
+1500979080260	DeferredSave.addons.json	DEBUG	Starting timer
+1500979080308	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979080316	DeferredSave.extensions.json	DEBUG	Starting write
+1500979080326	DeferredSave.addons.json	DEBUG	Starting write
+1500979080382	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080392	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=1.1768) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;DESKTOP-5BHJEAE&apos;, ip: &apos;192.168.1.26&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.softq.MouseOperations.setup(MouseOperations.java:32)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+n&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979077190	DeferredSave.extensions.json	DEBUG	Save changes
+1500979077190	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979077191	addons.xpi-utils	DEBUG	Updating add-on states
+1500979077193	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979077198	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979077199	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979077200	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979077201	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979077202	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979077203	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979077204	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979077205	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979077205	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979077206	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979077212	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979077212	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979077213	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979077221	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979077221	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979077222	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979077222	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979077223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979077223	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979079885	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979079885	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979079886	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979080231	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080231	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979080231	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979080253	addons.repository	DEBUG	No addons.json found.
+1500979080254	DeferredSave.addons.json	DEBUG	Save changes
+1500979080260	DeferredSave.addons.json	DEBUG	Starting timer
+1500979080308	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979080316	DeferredSave.extensions.json	DEBUG	Starting write
+1500979080326	DeferredSave.addons.json	DEBUG	Starting write
+1500979080382	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080392	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=1.1768) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 29 more
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragAnddrop">
+                  </a> <!-- DragAnddrop -->
+                  <span class="method-name">DragAnddrop</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+n&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979077190	DeferredSave.extensions.json	DEBUG	Save changes
+1500979077190	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979077191	addons.xpi-utils	DEBUG	Updating add-on states
+1500979077193	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979077198	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979077199	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979077200	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979077201	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979077202	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979077203	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979077204	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979077205	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979077205	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979077206	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979077212	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979077212	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979077213	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979077221	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979077221	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979077222	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979077222	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979077223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979077223	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979079885	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979079885	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979079886	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979080231	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080231	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979080231	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979080253	addons.repository	DEBUG	No addons.json found.
+1500979080254	DeferredSave.addons.json	DEBUG	Save changes
+1500979080260	DeferredSave.addons.json	DEBUG	Starting timer
+1500979080308	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979080316	DeferredSave.extensions.json	DEBUG	Starting write
+1500979080326	DeferredSave.addons.json	DEBUG	Starting write
+1500979080382	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080392	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=1.1768) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;DESKTOP-5BHJEAE&apos;, ip: &apos;192.168.1.26&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.softq.MouseOperations.setup(MouseOperations.java:32)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+n&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979077190	DeferredSave.extensions.json	DEBUG	Save changes
+1500979077190	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979077191	addons.xpi-utils	DEBUG	Updating add-on states
+1500979077193	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979077198	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979077199	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979077200	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979077201	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979077202	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979077203	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979077204	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979077205	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979077205	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979077206	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979077212	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979077212	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979077213	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979077221	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979077221	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979077222	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979077222	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979077223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979077223	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979079885	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979079885	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979079886	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979080231	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080231	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979080231	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979080253	addons.repository	DEBUG	No addons.json found.
+1500979080254	DeferredSave.addons.json	DEBUG	Save changes
+1500979080260	DeferredSave.addons.json	DEBUG	Starting timer
+1500979080308	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979080316	DeferredSave.extensions.json	DEBUG	Starting write
+1500979080326	DeferredSave.addons.json	DEBUG	Starting write
+1500979080382	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080392	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=1.1768) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 29 more
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MoveToelement">
+                  </a> <!-- MoveToelement -->
+                  <span class="method-name">MoveToelement</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+n&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979077190	DeferredSave.extensions.json	DEBUG	Save changes
+1500979077190	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979077191	addons.xpi-utils	DEBUG	Updating add-on states
+1500979077193	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979077198	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979077199	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979077200	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979077201	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979077202	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979077203	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979077204	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979077205	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979077205	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979077206	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979077212	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979077212	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979077213	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979077221	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979077221	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979077222	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979077222	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979077223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979077223	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979079885	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979079885	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979079886	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979080231	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080231	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979080231	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979080253	addons.repository	DEBUG	No addons.json found.
+1500979080254	DeferredSave.addons.json	DEBUG	Save changes
+1500979080260	DeferredSave.addons.json	DEBUG	Starting timer
+1500979080308	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979080316	DeferredSave.extensions.json	DEBUG	Starting write
+1500979080326	DeferredSave.addons.json	DEBUG	Starting write
+1500979080382	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080392	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=1.1768) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;DESKTOP-5BHJEAE&apos;, ip: &apos;192.168.1.26&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.softq.MouseOperations.setup(MouseOperations.java:32)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+n&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979077190	DeferredSave.extensions.json	DEBUG	Save changes
+1500979077190	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979077191	addons.xpi-utils	DEBUG	Updating add-on states
+1500979077193	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979077198	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979077199	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979077200	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979077201	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979077202	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979077203	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979077204	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979077205	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979077205	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979077206	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979077212	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979077212	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979077213	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979077221	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979077221	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979077222	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979077222	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979077223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979077223	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979079885	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979079885	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979079886	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979080231	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080231	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979080231	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979080253	addons.repository	DEBUG	No addons.json found.
+1500979080254	DeferredSave.addons.json	DEBUG	Save changes
+1500979080260	DeferredSave.addons.json	DEBUG	Starting timer
+1500979080308	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979080316	DeferredSave.extensions.json	DEBUG	Starting write
+1500979080326	DeferredSave.addons.json	DEBUG	Starting write
+1500979080382	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080392	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=1.1768) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 29 more
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="slider">
+                  </a> <!-- slider -->
+                  <span class="method-name">slider</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+n&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979077190	DeferredSave.extensions.json	DEBUG	Save changes
+1500979077190	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979077191	addons.xpi-utils	DEBUG	Updating add-on states
+1500979077193	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979077198	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979077199	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979077200	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979077201	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979077202	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979077203	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979077204	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979077205	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979077205	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979077206	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979077212	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979077212	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979077213	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979077221	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979077221	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979077222	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979077222	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979077223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979077223	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979079885	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979079885	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979079886	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979080231	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080231	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979080231	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979080253	addons.repository	DEBUG	No addons.json found.
+1500979080254	DeferredSave.addons.json	DEBUG	Save changes
+1500979080260	DeferredSave.addons.json	DEBUG	Starting timer
+1500979080308	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979080316	DeferredSave.extensions.json	DEBUG	Starting write
+1500979080326	DeferredSave.addons.json	DEBUG	Starting write
+1500979080382	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080392	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=1.1768) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;DESKTOP-5BHJEAE&apos;, ip: &apos;192.168.1.26&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.softq.MouseOperations.setup(MouseOperations.java:32)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+n&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979077190	DeferredSave.extensions.json	DEBUG	Save changes
+1500979077190	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979077191	addons.xpi-utils	DEBUG	Updating add-on states
+1500979077193	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979077198	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979077199	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979077200	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979077201	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979077202	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979077203	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979077204	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979077205	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979077205	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979077206	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979077212	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979077212	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979077212	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979077213	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979077221	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979077221	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979077222	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979077222	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979077223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979077223	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979079885	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979079885	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979079886	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979080231	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080231	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979080231	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979080253	addons.repository	DEBUG	No addons.json found.
+1500979080254	DeferredSave.addons.json	DEBUG	Save changes
+1500979080260	DeferredSave.addons.json	DEBUG	Starting timer
+1500979080308	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979080308	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979080316	DeferredSave.extensions.json	DEBUG	Starting write
+1500979080326	DeferredSave.addons.json	DEBUG	Starting write
+1500979080382	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979080392	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=1.1768) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 29 more
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-vmwareSuite-class-skipped -->
+          <div class="suite-vmwareSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.softq.SingleDropdown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleDropDown">
+                  </a> <!-- singleDropDown -->
+                  <span class="method-name">singleDropDown</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979033499	DeferredSave.extensions.json	DEBUG	Save changes
+1500979033500	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979033500	addons.xpi-utils	DEBUG	Updating add-on states
+1500979033502	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979033508	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979033509	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979033511	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979033513	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979033513	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979033515	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979033516	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979033516	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979033517	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979033518	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979033523	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979033523	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979033524	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979033524	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979033524	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979033524	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979033534	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979033534	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979033534	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979033535	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979033535	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979033536	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979039974	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979039974	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979039976	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979040040	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979040040	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979040040	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979040113	DeferredSave.extensions.json	DEBUG	Starting write
+1500979043851	addons.repository	DEBUG	No addons.json found.
+1500979043853	DeferredSave.addons.json	DEBUG	Save changes
+1500979043894	DeferredSave.addons.json	DEBUG	Starting timer
+1500979044269	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979044269	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979044269	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979044273	DeferredSave.addons.json	DEBUG	Starting write
+1500979044282	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979044492	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=12.5766) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;DESKTOP-5BHJEAE&apos;, ip: &apos;192.168.1.26&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.softq.SingleDropdown.setup(SingleDropdown.java:31)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;mpcOptedOut&quot;:true,&quot;userPermissions&quot;:null}
+1500979033499	DeferredSave.extensions.json	DEBUG	Save changes
+1500979033500	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500979033500	addons.xpi-utils	DEBUG	Updating add-on states
+1500979033502	addons.xpi-utils	DEBUG	Writing add-ons list
+1500979033508	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1500979033509	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1500979033511	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1500979033513	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1500979033513	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1500979033515	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1500979033516	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1500979033516	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1500979033517	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1500979033518	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1500979033523	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500979033523	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500979033524	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500979033524	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500979033524	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500979033524	addons.manager	DEBUG	Starting provider: GMPProvider
+1500979033534	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500979033534	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500979033534	addons.manager	DEBUG	Starting provider: PluginProvider
+1500979033535	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500979033535	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500979033536	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500979039974	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1500979039974	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1500979039976	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1500979040040	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979040040	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500979040040	DeferredSave.extensions.json	DEBUG	Starting timer
+1500979040113	DeferredSave.extensions.json	DEBUG	Starting write
+1500979043851	addons.repository	DEBUG	No addons.json found.
+1500979043853	DeferredSave.addons.json	DEBUG	Save changes
+1500979043894	DeferredSave.addons.json	DEBUG	Starting timer
+1500979044269	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500979044269	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500979044269	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500979044273	DeferredSave.addons.json	DEBUG	Starting write
+1500979044282	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500979044492	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0 (t=12.5766) [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 29 more
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-vmwareSuite-class-skipped -->
+          <div class="suite-vmwareSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softq.MouseOperations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Browserslider">
+                  </a> <!-- Browserslider -->
+                  <span class="method-name">Browserslider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragAnddrop">
+                  </a> <!-- DragAnddrop -->
+                  <span class="method-name">DragAnddrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MoveToelement">
+                  </a> <!-- MoveToelement -->
+                  <span class="method-name">MoveToelement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="slider">
+                  </a> <!-- slider -->
+                  <span class="method-name">slider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-vmwareSuite-class-passed -->
+          <div class="suite-vmwareSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.softq.SingleDropdown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleDropDown">
+                  </a> <!-- singleDropDown -->
+                  <span class="method-name">singleDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-vmwareSuite-class-passed -->
+        </div> <!-- panel vmwareSuite -->
+        <div panel-name="test-xml-vmwareSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium Projects\SoftQ\bat.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;vmwareSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;chromeBrowserExecutions&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.softq.SingleDropdown&quot;/&gt;
+      &lt;class name=&quot;com.softq.MouseOperations&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chromeBrowserExecutions --&gt;
+  &lt;test name=&quot;firefoxBrowserExecutions&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.softq.SingleDropdown&quot;/&gt;
+      &lt;class name=&quot;com.softq.MouseOperations&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- firefoxBrowserExecutions --&gt;
+&lt;/suite&gt; &lt;!-- vmwareSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-vmwareSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for vmwareSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chromeBrowserExecutions (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">firefoxBrowserExecutions (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-vmwareSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for vmwareSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-vmwareSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for vmwareSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_vmwareSuite');
+function tableData_vmwareSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Browserslider')
+data.setCell(0, 2, 'com.softq.MouseOperations')
+data.setCell(0, 3, 25946);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DragAnddrop')
+data.setCell(1, 2, 'com.softq.MouseOperations')
+data.setCell(1, 3, 16960);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'MoveToelement')
+data.setCell(2, 2, 'com.softq.MouseOperations')
+data.setCell(2, 3, 12002);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'singleDropDown')
+data.setCell(3, 2, 'com.softq.SingleDropdown')
+data.setCell(3, 3, 11779);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'slider')
+data.setCell(4, 2, 'com.softq.MouseOperations')
+data.setCell(4, 3, 9736);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'singleDropDown')
+data.setCell(5, 2, 'com.softq.SingleDropdown')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'MoveToelement')
+data.setCell(6, 2, 'com.softq.MouseOperations')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Browserslider')
+data.setCell(7, 2, 'com.softq.MouseOperations')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DragAnddrop')
+data.setCell(8, 2, 'com.softq.MouseOperations')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'slider')
+data.setCell(9, 2, 'com.softq.MouseOperations')
+data.setCell(9, 3, 0);
+window.suiteTableData['vmwareSuite']= { tableData: data, tableDiv: 'times-div-vmwareSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-vmwareSuite">
+              </div> <!-- times-div-vmwareSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-vmwareSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for vmwareSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-vmwareSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-vmwareSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softq.SingleDropdown</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">singleDropDown</span>
+                <span class="method-start">18553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">30336 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.softq.MouseOperations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">35738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DragAnddrop</span>
+                <span class="method-start">43866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">49366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">61823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MoveToelement</span>
+                <span class="method-start">67804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">80916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Browserslider</span>
+                <span class="method-start">85458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">112434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">slider</span>
+                <span class="method-start">117348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127084 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
