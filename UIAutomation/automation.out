@@ -18,3 +18,7 @@ browser closed
 Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (f541fb00c09f4dfff0c155cfbb9648cb)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
 Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (f541fb00c09f4dfff0c155cfbb9648cb)] -> xpath: .//*[@id='email']]
 browser closed
+============= Starting VerifyLoginWithDifferentRecords Test===========
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (3b926554397ac56726f24d7abb918e92)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (3b926554397ac56726f24d7abb918e92)] -> xpath: .//*[@id='email']]
+browser closed

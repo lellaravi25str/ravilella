@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[<a href='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\UIAutomation\screenshot\blank_16_08_2017_02_26_27.png'> <img src='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\UIAutomation\screenshot\blank_16_08_2017_02_26_27.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\UIAutomation\screenshot\blank_16_08_2017_02_30_00.png'> <img src='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\UIAutomation\screenshot\blank_16_08_2017_02_30_00.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="86388" started-at="2017-08-16T08:55:03Z" finished-at="2017-08-16T08:56:29Z">
+  <suite name="Default suite" duration-ms="86436" started-at="2017-08-16T08:58:35Z" finished-at="2017-08-16T09:00:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="86388" started-at="2017-08-16T08:55:03Z" finished-at="2017-08-16T08:56:29Z">
+    <test name="Default test" duration-ms="86436" started-at="2017-08-16T08:58:35Z" finished-at="2017-08-16T09:00:02Z">
       <class name="com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="setUp" is-config="true" duration-ms="20722" started-at="2017-08-16T14:25:03Z" finished-at="2017-08-16T14:25:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="setUp" is-config="true" duration-ms="20859" started-at="2017-08-16T14:28:35Z" finished-at="2017-08-16T14:28:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2017-08-16T14:25:24Z" finished-at="2017-08-16T14:25:24Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2017-08-16T14:28:57Z" finished-at="2017-08-16T14:28:57Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="loginToApplication" duration-ms="62802" started-at="2017-08-16T14:25:24Z" data-provider="loginData" finished-at="2017-08-16T14:26:27Z">
+        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="loginToApplication" duration-ms="62621" started-at="2017-08-16T14:28:57Z" data-provider="loginData" finished-at="2017-08-16T14:30:00Z">
           <params>
             <param index="0">
               <value>
@@ -53,8 +53,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-5BHJEAE', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\RAVILE~1\AppData\Local\Temp\scoped_dir644_16776}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: f541fb00c09f4dfff0c155cfbb9648cb
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\RAVILE~1\AppData\Local\Temp\scoped_dir2112_17652}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3b926554397ac56726f24d7abb918e92
 *** Element info: {Using=xpath, value=.//*[@id='passw']}]]>
             </message>
             <full-stacktrace>
@@ -66,8 +66,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-5BHJEAE', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\RAVILE~1\AppData\Local\Temp\scoped_dir644_16776}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: f541fb00c09f4dfff0c155cfbb9648cb
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\RAVILE~1\AppData\Local\Temp\scoped_dir2112_17652}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3b926554397ac56726f24d7abb918e92
 *** Element info: {Using=xpath, value=.//*[@id='passw']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -116,7 +116,7 @@ Session ID: f541fb00c09f4dfff0c155cfbb9648cb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="afterMethod" is-config="true" duration-ms="553" started-at="2017-08-16T14:26:27Z" finished-at="2017-08-16T14:26:27Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="afterMethod" is-config="true" duration-ms="392" started-at="2017-08-16T14:30:00Z" finished-at="2017-08-16T14:30:00Z">
           <params>
             <param index="0">
               <value>
@@ -126,11 +126,11 @@ Session ID: f541fb00c09f4dfff0c155cfbb9648cb
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\UIAutomation\screenshot\blank_16_08_2017_02_26_27.png'> <img src='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\UIAutomation\screenshot\blank_16_08_2017_02_26_27.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\UIAutomation\screenshot\blank_16_08_2017_02_30_00.png'> <img src='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\UIAutomation\screenshot\blank_16_08_2017_02_30_00.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="endTest" is-config="true" duration-ms="1423" started-at="2017-08-16T14:26:27Z" finished-at="2017-08-16T14:26:29Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@4923ab24]" name="endTest" is-config="true" duration-ms="1675" started-at="2017-08-16T14:30:00Z" finished-at="2017-08-16T14:30:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
