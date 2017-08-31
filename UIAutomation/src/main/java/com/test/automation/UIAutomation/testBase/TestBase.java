@@ -33,7 +33,7 @@ import org.testng.annotations.Parameters;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-import com.test.automation.UIAutomation.excelReader.ExcelReader;
+import com.test.automation.UIAutomation.excelReader.ExcelReader_old;
 
 public class TestBase
 {
@@ -41,7 +41,7 @@ public class TestBase
 	public static final Logger log=Logger.getLogger(TestBase.class.getName());
 	
 	public static WebDriver driver;
-	public ExcelReader excel;
+	public ExcelReader_old excel;
 	String url="http://automationpractice.com/index.php";
 	//String url="http://seleniumhq.github.io/selenium/docs/api/java/index.html";
 	String browser="chrome";
@@ -140,7 +140,7 @@ public class TestBase
 	public String[][] getData(String sheetName,String excelName)
 	{
 		String path=System.getProperty("user.dir")+"\\src\\main\\java\\com\\test\\automation\\UIAutomation\\data\\"+excelName;
-		excel=new ExcelReader(path);
+		excel=new ExcelReader_old(path);
 		//String[][] data=excel.getDataFromSheet(sheetName, excelName);
 		String[][] data=excel.getDataFromSheet("LoginTestData","TestData.xlsx");
 		return data;
