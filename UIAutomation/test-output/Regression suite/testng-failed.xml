@@ -11,7 +11,7 @@
       <class name="com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
         <methods>
           <include name="beforeMethod"/>
-          <include name="loginToApplication" invocation-numbers="1 1 1 2 2 3 3 4 4 5 5"/>
+          <include name="loginToApplication"/>
           <include name="setUp"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
