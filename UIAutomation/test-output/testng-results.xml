@@ -1,54 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Test started Running:loginToApplication]]>
+    </line>
+    <line>
+      <![CDATA[Test is success:loginToApplication]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_31_08_2017_09_47_34.png'> <img src='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_31_08_2017_09_47_34.png' height='100' width='100'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite name="Regression suite" duration-ms="53370" started-at="2017-08-31T01:36:18Z" finished-at="2017-08-31T01:37:12Z">
+  <suite name="Regression suite" duration-ms="53867" started-at="2017-08-31T16:16:48Z" finished-at="2017-08-31T16:17:42Z">
     <groups>
     </groups>
-    <test name="TC003_VerifyLoginWithDifferentRecords" duration-ms="53370" started-at="2017-08-31T01:36:18Z" finished-at="2017-08-31T01:37:12Z">
+    <test name="TC003_VerifyLoginWithDifferentRecords" duration-ms="53867" started-at="2017-08-31T16:16:48Z" finished-at="2017-08-31T16:17:42Z">
       <class name="com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@50d0686]" name="setUp" is-config="true" duration-ms="49099" started-at="2017-08-31T07:06:18Z" finished-at="2017-08-31T07:07:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="setUp" is-config="true" duration-ms="29781" started-at="2017-08-31T21:46:48Z" finished-at="2017-08-31T21:47:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@50d0686]" name="loginToApplication" duration-ms="0" started-at="2017-08-31T07:07:08Z" data-provider="loginData" finished-at="2017-08-31T07:07:08Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.String[][] com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords.getTestData() must return either Object[][] or Iterator<Object>[], not class [[Ljava.lang.String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.String[][] com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords.getTestData() must return either Object[][] or Iterator<Object>[], not class [[Ljava.lang.String;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2017-08-31T21:47:28Z" finished-at="2017-08-31T21:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords.loginToApplication(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="loginToApplication" duration-ms="5848" started-at="2017-08-31T21:47:28Z" data-provider="loginData" finished-at="2017-08-31T21:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:loginToApplication]]>
+            </line>
+            <line>
+              <![CDATA[Test is success:loginToApplication]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_31_08_2017_09_47_34.png'> <img src='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_31_08_2017_09_47_34.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@50d0686]" name="endTest" is-config="true" duration-ms="2994" started-at="2017-08-31T07:07:09Z" finished-at="2017-08-31T07:07:12Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-31T21:47:34Z" finished-at="2017-08-31T21:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=TC003_VerifyLoginWithDifferentRecords.loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd] output=Test started Running:loginToApplication]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="endTest" is-config="true" duration-ms="7179" started-at="2017-08-31T21:47:34Z" finished-at="2017-08-31T21:47:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

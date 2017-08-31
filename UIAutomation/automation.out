@@ -106,3 +106,11 @@ browser closed
 browser closed
 browser closed
 browser closed
+============= Starting VerifyLoginWithDifferentRecords Test===========
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (e0d7a343ba960be2b5f303826ee4bf56)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (e0d7a343ba960be2b5f303826ee4bf56)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (e0d7a343ba960be2b5f303826ee4bf56)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (e0d7a343ba960be2b5f303826ee4bf56)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
+browser closed
