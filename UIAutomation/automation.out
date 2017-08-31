@@ -1,36 +1,52 @@
 ==================Starting TC001_VerifyLoginWithInvalidCredentials Test================
-Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (45234e59987d78dad4548d6865dc1e67)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
-Entered email adress :-test@gmail.comand object is:- [[ChromeDriver: chrome on XP (45234e59987d78dad4548d6865dc1e67)] -> xpath: .//*[@id='email']]
-Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (45234e59987d78dad4548d6865dc1e67)] -> xpath: .//*[@id='passwd']]
-Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (45234e59987d78dad4548d6865dc1e67)] -> xpath: .//*[@id='SubmitLogin']]
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (ab51431e058963fb9d3f470df27ddd2c)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-test@gmail.comand object is:- [[ChromeDriver: chrome on XP (ab51431e058963fb9d3f470df27ddd2c)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (ab51431e058963fb9d3f470df27ddd2c)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (ab51431e058963fb9d3f470df27ddd2c)] -> xpath: .//*[@id='SubmitLogin']]
 Error message is :-Authentication failed.
 ==================Ending TC001_VerifyLoginWithInvalidCredentials Test================
 browser closed
 ============= Starting VerifyLoginWithDifferentRecords Test===========
-Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (35dd5ee28840e1a748acab324c659496)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
-Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (35dd5ee28840e1a748acab324c659496)] -> xpath: .//*[@id='email']]
-Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (35dd5ee28840e1a748acab324c659496)] -> xpath: .//*[@id='passwd']]
-Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (35dd5ee28840e1a748acab324c659496)] -> xpath: .//*[@id='SubmitLogin']]
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (6c442731fdff32f58b8d28124f11adf3)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (6c442731fdff32f58b8d28124f11adf3)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (6c442731fdff32f58b8d28124f11adf3)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (6c442731fdff32f58b8d28124f11adf3)] -> xpath: .//*[@id='SubmitLogin']]
 Error message is :-Authentication failed.
 ============= Finished VerifyLoginWithDifferentRecords Test===========
 browser closed
 ============= Starting VerifyLoginWithDifferentRecords Test===========
-Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (f541fb00c09f4dfff0c155cfbb9648cb)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
-Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (f541fb00c09f4dfff0c155cfbb9648cb)] -> xpath: .//*[@id='email']]
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (38e9cdf93397a078f986850297e40180)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (38e9cdf93397a078f986850297e40180)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (38e9cdf93397a078f986850297e40180)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (38e9cdf93397a078f986850297e40180)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
 browser closed
 ============= Starting VerifyLoginWithDifferentRecords Test===========
-Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (3b926554397ac56726f24d7abb918e92)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
-Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (3b926554397ac56726f24d7abb918e92)] -> xpath: .//*[@id='email']]
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (66632e1bddaca46ba060bdaf18b419df)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (66632e1bddaca46ba060bdaf18b419df)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (66632e1bddaca46ba060bdaf18b419df)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (66632e1bddaca46ba060bdaf18b419df)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
 browser closed
 ============= Starting VerifyLoginWithDifferentRecords Test===========
-Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (a2b452c6e9d51f4bd79368cd76e337ef)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
-Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (a2b452c6e9d51f4bd79368cd76e337ef)] -> xpath: .//*[@id='email']]
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (20656fa229ae8b5d66cebcb06745bd27)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (20656fa229ae8b5d66cebcb06745bd27)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (20656fa229ae8b5d66cebcb06745bd27)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (20656fa229ae8b5d66cebcb06745bd27)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
 Retrying test loginToApplication with status FAILURE for the 1 time(s).
-============= Starting VerifyLoginWithDifferentRecords Test===========
-Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (a2b452c6e9d51f4bd79368cd76e337ef)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
-Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (a2b452c6e9d51f4bd79368cd76e337ef)] -> xpath: .//*[@id='email']]
 Retrying test loginToApplication with status FAILURE for the 2 time(s).
+browser closed
 ============= Starting VerifyLoginWithDifferentRecords Test===========
-Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (a2b452c6e9d51f4bd79368cd76e337ef)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
-Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (a2b452c6e9d51f4bd79368cd76e337ef)] -> xpath: .//*[@id='email']]
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (9e759ce339aa1ef36298fbd5b7198514)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (9e759ce339aa1ef36298fbd5b7198514)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (9e759ce339aa1ef36298fbd5b7198514)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (9e759ce339aa1ef36298fbd5b7198514)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
+Retrying test loginToApplication with status FAILURE for the 1 time(s).
+Retrying test loginToApplication with status FAILURE for the 2 time(s).
 browser closed

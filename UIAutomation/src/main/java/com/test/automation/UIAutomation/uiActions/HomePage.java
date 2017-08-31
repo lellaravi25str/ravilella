@@ -19,7 +19,7 @@ public class HomePage
 	@FindBy(xpath=".//*[@id='email']")
 	WebElement loginEmailAddress;
 	
-	@FindBy(xpath=".//*[@id='passw']")
+	@FindBy(xpath=".//*[@id='passwd']")
 	WebElement loginPassword;
 
 	@FindBy(xpath=".//*[@id='SubmitLogin']")

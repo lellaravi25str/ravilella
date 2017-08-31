@@ -141,7 +141,8 @@ public class TestBase
 	{
 		String path=System.getProperty("user.dir")+"\\src\\main\\java\\com\\test\\automation\\UIAutomation\\data\\"+excelName;
 		excel=new ExcelReader(path);
-		String[][] data=excel.getDataFromSheet(sheetName, excelName);
+		//String[][] data=excel.getDataFromSheet(sheetName, excelName);
+		String[][] data=excel.getDataFromSheet("LoginTestData","TestData.xlsx");
 		return data;
 	}
 
@@ -208,16 +209,19 @@ public class TestBase
 	
 	
 	
-	@AfterMethod()
-	public void afterMethod(ITestResult result) {
-		getresult(result);
-	}
-
 	@BeforeMethod()
 	public void beforeMethod(Method result) {
 		test = extent.startTest(result.getName());
 		test.log(LogStatus.INFO, result.getName() + " test Started");
 	}
+	
+	
+	@AfterMethod()
+	public void afterMethod(ITestResult result) {
+		getresult(result);
+	}
+
+	
 
 	@AfterClass(alwaysRun = true)
 	public void endTest() {
