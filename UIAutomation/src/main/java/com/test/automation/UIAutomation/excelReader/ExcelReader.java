@@ -17,7 +17,7 @@ public class ExcelReader
 	public XSSFWorkbook workbook;
 	public XSSFSheet sheet;
 	public XSSFRow row;
-	public XSSFCell cell;
+	public XSSFCell cell=null;
 
 	
 	

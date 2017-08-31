@@ -50,3 +50,46 @@ Error message is :-Authentication failed.
 Retrying test loginToApplication with status FAILURE for the 1 time(s).
 Retrying test loginToApplication with status FAILURE for the 2 time(s).
 browser closed
+============= Starting VerifyLoginWithDifferentRecords Test===========
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (cdd639d9e98459fa5462c44fb66bf16d)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (cdd639d9e98459fa5462c44fb66bf16d)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (cdd639d9e98459fa5462c44fb66bf16d)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (cdd639d9e98459fa5462c44fb66bf16d)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
+Retrying test loginToApplication with status FAILURE for the 1 time(s).
+Retrying test loginToApplication with status FAILURE for the 2 time(s).
+browser closed
+============= Starting VerifyLoginWithDifferentRecords Test===========
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (954de58dddd793a16b164c0d6b7a7f4e)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (954de58dddd793a16b164c0d6b7a7f4e)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (954de58dddd793a16b164c0d6b7a7f4e)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (954de58dddd793a16b164c0d6b7a7f4e)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
+Retrying test loginToApplication with status FAILURE for the 1 time(s).
+Retrying test loginToApplication with status FAILURE for the 2 time(s).
+browser closed
+============= Starting VerifyLoginWithDifferentRecords Test===========
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (81e1668fb9a5fef69d0fbdde1f911c3e)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (81e1668fb9a5fef69d0fbdde1f911c3e)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (81e1668fb9a5fef69d0fbdde1f911c3e)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (81e1668fb9a5fef69d0fbdde1f911c3e)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
+Retrying test loginToApplication with status FAILURE for the 1 time(s).
+Retrying test loginToApplication with status FAILURE for the 2 time(s).
+browser closed
+============= Starting VerifyLoginWithDifferentRecords Test===========
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (8be55ce0683b984f8b8abd09c0a156f0)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (8be55ce0683b984f8b8abd09c0a156f0)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (8be55ce0683b984f8b8abd09c0a156f0)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (8be55ce0683b984f8b8abd09c0a156f0)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
+Retrying test loginToApplication with status FAILURE for the 1 time(s).
+Retrying test loginToApplication with status FAILURE for the 2 time(s).
+browser closed
+browser closed
+browser closed
+browser closed
