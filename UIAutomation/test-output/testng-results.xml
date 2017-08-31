@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression suite" duration-ms="18916" started-at="2017-08-31T01:20:59Z" finished-at="2017-08-31T01:21:18Z">
+  <suite name="Regression suite" duration-ms="53370" started-at="2017-08-31T01:36:18Z" finished-at="2017-08-31T01:37:12Z">
     <groups>
     </groups>
-    <test name="TC003_VerifyLoginWithDifferentRecords" duration-ms="18916" started-at="2017-08-31T01:20:59Z" finished-at="2017-08-31T01:21:18Z">
+    <test name="TC003_VerifyLoginWithDifferentRecords" duration-ms="53370" started-at="2017-08-31T01:36:18Z" finished-at="2017-08-31T01:37:12Z">
       <class name="com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40]" name="setUp" is-config="true" duration-ms="15137" started-at="2017-08-31T06:50:59Z" finished-at="2017-08-31T06:51:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@50d0686]" name="setUp" is-config="true" duration-ms="49099" started-at="2017-08-31T07:06:18Z" finished-at="2017-08-31T07:07:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40]" name="loginToApplication" duration-ms="0" started-at="2017-08-31T06:51:15Z" data-provider="loginData" finished-at="2017-08-31T06:51:15Z">
+        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@50d0686]" name="loginToApplication" duration-ms="0" started-at="2017-08-31T07:07:08Z" data-provider="loginData" finished-at="2017-08-31T07:07:08Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -48,7 +48,7 @@ Data Provider public java.lang.String[][] com.test.automation.UIAutomation.homep
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@46daef40]" name="endTest" is-config="true" duration-ms="1763" started-at="2017-08-31T06:51:16Z" finished-at="2017-08-31T06:51:18Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@50d0686]" name="endTest" is-config="true" duration-ms="2994" started-at="2017-08-31T07:07:09Z" finished-at="2017-08-31T07:07:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

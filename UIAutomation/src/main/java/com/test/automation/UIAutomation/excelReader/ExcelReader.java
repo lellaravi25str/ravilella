@@ -3,21 +3,21 @@ package com.test.automation.UIAutomation.excelReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader 
 {
 	public FileInputStream fis;
 	public FileOutputStream fileOut = null;
 	public String path;
-	public XSSFWorkbook workbook;
-	public XSSFSheet sheet;
-	public XSSFRow row;
-	public XSSFCell cell=null;
+	public HSSFWorkbook workbook;
+	public HSSFSheet sheet;
+	public HSSFRow row;
+	public HSSFCell cell=null;
 
 	
 	
@@ -27,7 +27,7 @@ public class ExcelReader
 		try 
 		{
 			fis = new FileInputStream(path);
-			workbook = new XSSFWorkbook(fis);
+			workbook = new HSSFWorkbook(fis);
 		} 
 		catch (Exception e)
 		{
@@ -40,7 +40,7 @@ public class ExcelReader
 		String dataSets[][] = null;
 			try {
 				// get sheet from excel workbook
-				XSSFSheet sheet = workbook.getSheet(sheetName);
+				HSSFSheet sheet = workbook.getSheet(sheetName);
 				// count number of active rows
 				int totalRow = sheet.getLastRowNum()+1;
 				// count number of active columns in row
@@ -53,11 +53,11 @@ public class ExcelReader
 				// Run for loop and store data in 2D array
 				// This for loop will run on rows
 				for (int i = 1; i < totalRow; i++) {
-					XSSFRow rows = sheet.getRow(i);
+					HSSFRow rows = sheet.getRow(i);
 					// This for loop will run on columns of that row
 					for (int j = 0; j <= totalColumn; j++) {
 						// getCell method will get cell
-						XSSFCell cell = rows.getCell(j);
+						HSSFCell cell = rows.getCell(j);
 					
 						// If cell of type String , then this if condition will work
 						if (cell.getCellType() == Cell.CELL_TYPE_STRING)
@@ -88,7 +88,7 @@ public class ExcelReader
 			int col_Num = 0;
 			int index = workbook.getSheetIndex(sheetName);
 			sheet = workbook.getSheetAt(index);
-			XSSFRow row = sheet.getRow(0);
+			HSSFRow row = sheet.getRow(0);
 			for (int i = 0; i < row.getLastCellNum(); i++) {
 				if (row.getCell(i).getStringCellValue().equals(colName)) {
 					col_Num = i;
@@ -97,7 +97,7 @@ public class ExcelReader
 			}
 			row = sheet.getRow(rowNum - 1);
 			
-			XSSFCell cell = row.getCell(col_Num);
+			HSSFCell cell = row.getCell(col_Num);
 			if (cell.getCellType() == Cell.CELL_TYPE_STRING) {
 				return cell.getStringCellValue();
 			} else if (cell.getCellType() == Cell.CELL_TYPE_BLANK) {
