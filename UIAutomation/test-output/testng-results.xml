@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Test started Running:loginToApplication]]>
-    </line>
-    <line>
-      <![CDATA[Test is success:loginToApplication]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_31_08_2017_09_47_34.png'> <img src='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_31_08_2017_09_47_34.png' height='100' width='100'/> </a>]]>
-    </line>
   </reporter-output>
-  <suite name="Regression suite" duration-ms="53867" started-at="2017-08-31T16:16:48Z" finished-at="2017-08-31T16:17:42Z">
+  <suite name="Default suite" duration-ms="19340" started-at="2017-08-31T17:33:18Z" finished-at="2017-08-31T17:33:37Z">
     <groups>
     </groups>
-    <test name="TC003_VerifyLoginWithDifferentRecords" duration-ms="53867" started-at="2017-08-31T16:16:48Z" finished-at="2017-08-31T16:17:42Z">
+    <test name="Default test" duration-ms="19340" started-at="2017-08-31T17:33:18Z" finished-at="2017-08-31T17:33:37Z">
       <class name="com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="setUp" is-config="true" duration-ms="29781" started-at="2017-08-31T21:46:48Z" finished-at="2017-08-31T21:47:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@262b2c86]" name="setUp" is-config="true" duration-ms="13196" started-at="2017-08-31T23:03:18Z" finished-at="2017-08-31T23:03:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2017-08-31T21:47:28Z" finished-at="2017-08-31T21:47:28Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@262b2c86]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2017-08-31T23:03:32Z" finished-at="2017-08-31T23:03:32Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="loginToApplication" duration-ms="5848" started-at="2017-08-31T21:47:28Z" data-provider="loginData" finished-at="2017-08-31T21:47:34Z">
+        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@262b2c86]" name="loginToApplication" duration-ms="3951" started-at="2017-08-31T23:03:32Z" data-provider="loginData" finished-at="2017-08-31T23:03:36Z">
           <params>
             <param index="0">
               <value>
@@ -50,33 +41,24 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Test started Running:loginToApplication]]>
-            </line>
-            <line>
-              <![CDATA[Test is success:loginToApplication]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_31_08_2017_09_47_34.png'> <img src='C:\Users\ravilella\git\ravilella12\UIAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\loginToApplication_31_08_2017_09_47_34.png' height='100' width='100'/> </a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-31T21:47:34Z" finished-at="2017-08-31T21:47:34Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@262b2c86]" name="endTest" is-config="true" duration-ms="1443" started-at="2017-08-31T23:03:36Z" finished-at="2017-08-31T23:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@262b2c86]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-31T23:03:36Z" finished-at="2017-08-31T23:03:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=TC003_VerifyLoginWithDifferentRecords.loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd] output=Test started Running:loginToApplication]]]>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=TC003_VerifyLoginWithDifferentRecords.loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@262b2c86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@7a3d45bd]" name="endTest" is-config="true" duration-ms="7179" started-at="2017-08-31T21:47:34Z" finished-at="2017-08-31T21:47:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
       </class> <!-- com.test.automation.UIAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
-    </test> <!-- TC003_VerifyLoginWithDifferentRecords -->
-  </suite> <!-- Regression suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
