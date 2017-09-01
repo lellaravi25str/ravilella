@@ -138,3 +138,24 @@ Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (c2e3fa7a1
 Error message is :-Authentication failed.
 ============= Finished VerifyLoginWithDifferentRecords Test===========
 browser closed
+============= Starting VerifyLoginWithDifferentRecords Test===========
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (6f6b1fa2d6f96b2fad33b4ec7b423c8d)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (6f6b1fa2d6f96b2fad33b4ec7b423c8d)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (6f6b1fa2d6f96b2fad33b4ec7b423c8d)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (6f6b1fa2d6f96b2fad33b4ec7b423c8d)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
+Retrying test loginToApplication with status FAILURE for the 1 time(s).
+Retrying test loginToApplication with status FAILURE for the 2 time(s).
+Retrying test loginToApplication with status FAILURE for the 3 time(s).
+browser closed
+============= Starting VerifyLoginWithDifferentRecords Test===========
+Clicked on Sign in and object is:- [[ChromeDriver: chrome on XP (c596f40c22628d3958e012091fb52bdc)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+Entered email adress :-automation@gmail.comand object is:- [[ChromeDriver: chrome on XP (c596f40c22628d3958e012091fb52bdc)] -> xpath: .//*[@id='email']]
+Entered password :-passwordand object is:- [[ChromeDriver: chrome on XP (c596f40c22628d3958e012091fb52bdc)] -> xpath: .//*[@id='passwd']]
+Clicked on Submit button and object is :-[[ChromeDriver: chrome on XP (c596f40c22628d3958e012091fb52bdc)] -> xpath: .//*[@id='SubmitLogin']]
+Error message is :-Authentication failed.
+============= Finished VerifyLoginWithDifferentRecords Test===========
+Retrying test loginToApplication with status FAILURE for the 1 time(s).
+Retrying test loginToApplication with status FAILURE for the 2 time(s).
+browser closed
