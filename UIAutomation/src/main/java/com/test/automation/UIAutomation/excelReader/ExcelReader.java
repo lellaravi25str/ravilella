@@ -17,7 +17,7 @@ public class ExcelReader
 	public XSSFWorkbook workbook;
 	public XSSFSheet sheet;
 	public XSSFRow row;
-	public XSSFCell cell;
+	public XSSFCell cell=null;
 
 	
 	
@@ -55,7 +55,7 @@ public class ExcelReader
 				for (int i = 1; i < totalRow; i++) {
 					XSSFRow rows = sheet.getRow(i);
 					// This for loop will run on columns of that row
-					for (int j = 0; j < totalColumn; j++) {
+					for (int j = 0; j <= totalColumn; j++) {
 						// getCell method will get cell
 						XSSFCell cell = rows.getCell(j);
 					
