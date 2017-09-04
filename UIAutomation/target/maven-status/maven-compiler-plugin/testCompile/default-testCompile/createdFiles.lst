@@ -1,0 +1,4 @@
+com\test\automation\UIAutomation\homepage\dumy.class
+com\test\automation\UIAutomation\homepage\TC001_VerifyLoginWithInvalidCredentials.class
+com\test\automation\UIAutomation\homepage\TC003_VerifyLoginWithDifferentRecords.class
+com\test\automation\UIAutomation\homepage\TC002_SeleniumhqFramesDemo.class
