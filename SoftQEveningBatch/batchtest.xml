@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="vmwaresuite" parallel="tests">
+
+  <test name="chromeTesting">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.softq.sample.SingleDropdown"/>
+      <class name="com.softq.sample.MouseOperations"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  
+  <test name="firefoxTesting">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.softq.sample.SingleDropdown"/>
+      <class name="com.softq.sample.MouseOperations"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  
+</suite> <!-- Default suite -->

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="vmwaresuite" duration-ms="155982" started-at="2017-07-19T13:56:23Z" finished-at="2017-07-19T13:58:59Z">
+    <groups>
+    </groups>
+    <test name="chromeTesting" duration-ms="107803" started-at="2017-07-19T13:56:23Z" finished-at="2017-07-19T13:58:11Z">
+      <class name="com.softq.sample.SingleDropdown">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.SingleDropdown@1efbd816]" name="setup" is-config="true" duration-ms="13641" started-at="2017-07-19T19:26:23Z" finished-at="2017-07-19T19:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="singleDropDown()[pri:0, instance:com.softq.sample.SingleDropdown@1efbd816]" name="singleDropDown" duration-ms="10005" started-at="2017-07-19T19:26:37Z" finished-at="2017-07-19T19:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleDropDown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.softq.sample.SingleDropdown@1efbd816]" name="teardown" is-config="true" duration-ms="1243" started-at="2017-07-19T19:26:47Z" finished-at="2017-07-19T19:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.softq.sample.SingleDropdown -->
+      <class name="com.softq.sample.MouseOperations">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="setup" is-config="true" duration-ms="3574" started-at="2017-07-19T19:26:48Z" finished-at="2017-07-19T19:26:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DragAnddrop()[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="DragAnddrop" duration-ms="16548" started-at="2017-07-19T19:26:51Z" finished-at="2017-07-19T19:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragAnddrop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="1044" started-at="2017-07-19T19:27:08Z" finished-at="2017-07-19T19:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="setup" is-config="true" duration-ms="3632" started-at="2017-07-19T19:27:09Z" finished-at="2017-07-19T19:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MoveToelement()[pri:1, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="MoveToelement" duration-ms="6099" started-at="2017-07-19T19:27:13Z" finished-at="2017-07-19T19:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToelement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="1165" started-at="2017-07-19T19:27:19Z" finished-at="2017-07-19T19:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="setup" is-config="true" duration-ms="3874" started-at="2017-07-19T19:27:20Z" finished-at="2017-07-19T19:27:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Browserslider()[pri:2, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="Browserslider" duration-ms="27247" started-at="2017-07-19T19:27:24Z" finished-at="2017-07-19T19:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserslider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="1001" started-at="2017-07-19T19:27:51Z" finished-at="2017-07-19T19:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="setup" is-config="true" duration-ms="3498" started-at="2017-07-19T19:27:52Z" finished-at="2017-07-19T19:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="slider()[pri:3, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="slider" duration-ms="14055" started-at="2017-07-19T19:27:56Z" finished-at="2017-07-19T19:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softq.sample.MouseOperations@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="1142" started-at="2017-07-19T19:28:10Z" finished-at="2017-07-19T19:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softq.sample.MouseOperations -->
+    </test> <!-- chromeTesting -->
+    <test name="firefoxTesting" duration-ms="155982" started-at="2017-07-19T13:56:23Z" finished-at="2017-07-19T13:58:59Z">
+      <class name="com.softq.sample.SingleDropdown">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.SingleDropdown@9629756]" name="setup" is-config="true" duration-ms="23639" started-at="2017-07-19T19:26:23Z" finished-at="2017-07-19T19:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="singleDropDown()[pri:0, instance:com.softq.sample.SingleDropdown@9629756]" name="singleDropDown" duration-ms="14554" started-at="2017-07-19T19:26:47Z" finished-at="2017-07-19T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleDropDown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.softq.sample.SingleDropdown@9629756]" name="teardown" is-config="true" duration-ms="1117" started-at="2017-07-19T19:27:01Z" finished-at="2017-07-19T19:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.softq.sample.SingleDropdown -->
+      <class name="com.softq.sample.MouseOperations">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="setup" is-config="true" duration-ms="10008" started-at="2017-07-19T19:27:02Z" finished-at="2017-07-19T19:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DragAnddrop()[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="DragAnddrop" duration-ms="17139" started-at="2017-07-19T19:27:12Z" finished-at="2017-07-19T19:27:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragAnddrop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="tearDown" is-config="true" duration-ms="1278" started-at="2017-07-19T19:27:29Z" finished-at="2017-07-19T19:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="setup" is-config="true" duration-ms="10294" started-at="2017-07-19T19:27:31Z" finished-at="2017-07-19T19:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MoveToelement()[pri:1, instance:com.softq.sample.MouseOperations@62ee68d8]" name="MoveToelement" duration-ms="7253" started-at="2017-07-19T19:27:41Z" finished-at="2017-07-19T19:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToelement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="tearDown" is-config="true" duration-ms="899" started-at="2017-07-19T19:27:48Z" finished-at="2017-07-19T19:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="setup" is-config="true" duration-ms="10907" started-at="2017-07-19T19:27:49Z" finished-at="2017-07-19T19:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Browserslider()[pri:2, instance:com.softq.sample.MouseOperations@62ee68d8]" name="Browserslider" duration-ms="34041" started-at="2017-07-19T19:28:00Z" finished-at="2017-07-19T19:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserslider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="tearDown" is-config="true" duration-ms="779" started-at="2017-07-19T19:28:34Z" finished-at="2017-07-19T19:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="setup" is-config="true" duration-ms="8869" started-at="2017-07-19T19:28:35Z" finished-at="2017-07-19T19:28:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="slider()[pri:3, instance:com.softq.sample.MouseOperations@62ee68d8]" name="slider" duration-ms="14263" started-at="2017-07-19T19:28:44Z" finished-at="2017-07-19T19:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softq.sample.MouseOperations@62ee68d8]" name="tearDown" is-config="true" duration-ms="904" started-at="2017-07-19T19:28:58Z" finished-at="2017-07-19T19:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softq.sample.MouseOperations -->
+    </test> <!-- firefoxTesting -->
+  </suite> <!-- vmwaresuite -->
+</testng-results>
