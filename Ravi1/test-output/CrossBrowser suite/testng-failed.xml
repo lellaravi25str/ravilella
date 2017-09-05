@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser suite]">
+  <test name="Firefox test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.softq.main.MainDriverScript">
+        <methods>
+          <include name="setUp"/>
+          <include name="killProcess"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.softq.main.MainDriverScript -->
+    </classes>
+  </test> <!-- Firefox test(failed) -->
+</suite> <!-- Failed suite [CrossBrowser suite] -->
