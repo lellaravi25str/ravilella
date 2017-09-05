@@ -6,6 +6,11 @@ public class B extends A
 	public void m2()
 	{
 		System.out.println("Hi iam m2 method from class B");
+		System.out.println("Hi iam updated method ");
+		
+		System.out.println("Hi iam updated method ");
+		System.out.println("Hi iam updated method ");
+		System.out.println("Hi iam updated method ");
 	}
 	
 	public static void main(String[] args) 
