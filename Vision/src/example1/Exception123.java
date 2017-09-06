@@ -9,7 +9,6 @@ public class Exception123
 	int z;
 	int x;
 	int y;
-	int a;
 	
 	
 	public static void main(String[] args) 
