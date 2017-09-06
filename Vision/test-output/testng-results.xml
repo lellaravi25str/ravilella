@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18647" started-at="2017-07-13T02:59:28Z" finished-at="2017-07-13T02:59:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18647" started-at="2017-07-13T02:59:28Z" finished-at="2017-07-13T02:59:46Z">
+      <class name="example1.TestNGEEnadu">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example1.TestNGEEnadu@6574b225]" name="beforeMethod" is-config="true" duration-ms="8463" started-at="2017-07-13T08:29:28Z" finished-at="2017-07-13T08:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="eenadu()[pri:0, instance:example1.TestNGEEnadu@6574b225]" name="eenadu" duration-ms="239" started-at="2017-07-13T08:29:36Z" finished-at="2017-07-13T08:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eenadu -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example1.TestNGEEnadu@6574b225]" name="afterMethod" is-config="true" duration-ms="1179" started-at="2017-07-13T08:29:36Z" finished-at="2017-07-13T08:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example1.TestNGEEnadu@6574b225]" name="beforeMethod" is-config="true" duration-ms="7536" started-at="2017-07-13T08:29:38Z" finished-at="2017-07-13T08:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="eenadu1()[pri:0, instance:example1.TestNGEEnadu@6574b225]" name="eenadu1" duration-ms="265" started-at="2017-07-13T08:29:45Z" finished-at="2017-07-13T08:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eenadu1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example1.TestNGEEnadu@6574b225]" name="afterMethod" is-config="true" duration-ms="923" started-at="2017-07-13T08:29:45Z" finished-at="2017-07-13T08:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- example1.TestNGEEnadu -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
