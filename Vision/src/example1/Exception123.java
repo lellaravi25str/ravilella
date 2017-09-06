@@ -7,8 +7,6 @@ import java.io.FileReader;
 public class Exception123 
 {
 	int z;
-	int x;
-	int y;
 	
 	
 	public static void main(String[] args) 
