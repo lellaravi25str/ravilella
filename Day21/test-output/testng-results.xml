@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG suite" duration-ms="58" started-at="2017-07-31T07:57:08Z" finished-at="2017-07-31T07:57:08Z">
+    <groups>
+    </groups>
+    <test name="TestNG test" duration-ms="58" started-at="2017-07-31T07:57:08Z" finished-at="2017-07-31T07:57:08Z">
+      <class name="org.oaktech.qa.TestNGDemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.oaktech.qa.TestNGDemo@6a2bcfcb]" name="setup" is-config="true" duration-ms="9" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="xyz()[pri:0, instance:org.oaktech.qa.TestNGDemo@6a2bcfcb]" name="xyz" duration-ms="6" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="pqr()[pri:2, instance:org.oaktech.qa.TestNGDemo@6a2bcfcb]" name="pqr" duration-ms="2" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pqr -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:org.oaktech.qa.TestNGDemo@6a2bcfcb]" name="killProcess" is-config="true" duration-ms="1" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+      </class> <!-- org.oaktech.qa.TestNGDemo -->
+      <class name="org.oaktech.qa.NewTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.oaktech.qa.NewTest@4de8b406]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.oaktech.qa.NewTest@4de8b406]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:org.oaktech.qa.NewTest@4de8b406]" name="f" duration-ms="2" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.oaktech.qa.NewTest@4de8b406]" name="afterMethod" is-config="true" duration-ms="9" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.oaktech.qa.NewTest@4de8b406]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-31T13:27:08Z" finished-at="2017-07-31T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.oaktech.qa.NewTest -->
+    </test> <!-- TestNG test -->
+  </suite> <!-- TestNG suite -->
+</testng-results>
